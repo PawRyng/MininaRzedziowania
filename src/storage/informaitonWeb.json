@@ -1,0 +1,38 @@
+{
+    "title":"mini narzędziownia",
+    "motto": "Siła w precyzji",
+    "buttonText" : "Nasza Oferta",
+    "aboutUsTitle": "O nas",
+    "aboutAsDescription": "Firma Mini Narzędziownia Karol Srtugała istnieje na rynku od 2005 roku, ale jej załogę stanowią doświadczeni pracownicy, którzy w branży obróbki metali działają już od kilkunastu lat. Doświadczenie to sprawia, że jesteśmy w stanie sprostać każdemu, nawet najbardziej skomplikowanemu zleceniu. Dysponujemy najnowocześniejszymi maszynami do frezowania, wiercenia i cięcia metali. Od początku swojej działalności stawiamy na wysoką jakość obróbki w korzystnej cenie.  Okres praktyki i połączona z nim intensywna praca zaowocowała tym, że staliśmy się profesjonalistami w zakresie szlifowania, toczenia i frezowania metali. Jesteśmy wiarygodnym i rzetelnym partnerem, dzięki czemu nawiązaliśmy współpracę z przedstawicielami wielu różnych gałęzi przemysłu. ",
+    "ofertTitle": "Nasza Oferta",
+    "ofertBoxs":[
+        {
+        "title":"Szlifowanie",
+        "imgName":"szlifowanie.jpg"    
+        },
+        {
+            "title":"Frezowanie",
+            "imgName":"frezowanie.jpg"    
+        },
+        {
+            "title":"Cięcie metali",
+            "imgName":"ciecieMetali.jpg"    
+        },
+        {
+            "title":"Toczenie",
+            "imgName":"toczenie.jpg"    
+        },
+        {
+            "title":"Wykrawianie",
+            "imgName":"wykrawanie.jpg"    
+            },
+        {
+            "title":"elektrodrążenie",
+            "imgName":"elektro.jpg"    
+            }       
+    ],
+    "titleForm":"",
+    "phone": "000 000 000",
+    "email": "mail@domena.com",
+    "fanpage": "FbFanpage"
+}
