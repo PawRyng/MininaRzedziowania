@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+.contactWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 90vh;
+  background-color: #242424;
+  cursor: default;
+}
+
+.contactWrapper .contactTitle {
+  margin-top: 10vh;
+  text-align: center;
+  background-color: #242424;
+  color: white;
+  font-size: 50px;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-bottom: 4vh;
+  width: 100vw;
+}
+
+.contactWrapper .contactTitle p {
+  margin: 0;
+  cursor: default;
+}
+
+.contactWrapper form .socialmedia {
+  margin-top: 10vh;
+}
+
+.contactWrapper form .socialmedia p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 17vw;
+  text-align: left;
+  font-size: 25px;
+}
+
+.contactWrapper form .socialmedia p i {
+  font-size: 30px;
+}
+
+.contactWrapper form .socialmedia i {
+  margin-right: 1vw;
+}
+
+.contactWrapper form p {
+  color: white;
+  font-family: "Roboto", "sans-serif";
+  font-size: 35px;
+  text-align: center;
+  margin: 2vh 0 6vh 0;
+  font-weight: 500;
+}
+
+.contactWrapper form .input {
+  text-align: center;
+  margin: 2vh 0;
+}
+
+.contactWrapper form .input label {
+  color: white;
+  font-family: "Roboto", "sans-serif";
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.contactWrapper form .input input {
+  font-family: "Roboto", "sans-serif";
+  width: 20vw;
+  height: 5vh;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 1vw;
+}
+
+.contactWrapper form .button {
+  width: 100%;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.contactWrapper form .button input {
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  width: 12vw;
+  height: 5vh;
+  background-color: white;
+  font-family: "Roboto", "sans-serif";
+  color: black;
+  border-color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 26px;
+  letter-spacing: 1px;
+}
+
+.contactWrapper form .button input:hover {
+  letter-spacing: 5px;
+}
+
+.contactWrapper .map {
+  width: 50vw;
+  text-align: center;
+}
+
+.contactWrapper .map p {
+  color: white;
+  font-size: 35px;
+  margin: 2vh;
+  text-transform: uppercase;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 500;
+}
+
+.contactWrapper .map iframe {
+  width: 40vw;
+  height: 50vh;
+  border: 0;
+}
+
+.contactWrapper .contact-form {
+  width: 50vw;
+}
+
+#root {
+  width: 100vw;
+  overflow: hidden;
+}
+
+@media (min-width: 320px) and (orientation: portrait) {
+  .contactWrapper {
+    height: auto;
+    padding-bottom: 5vh;
+  }
+  .contactWrapper .contactTitle {
+    width: 100vw;
+    margin-top: 5vh;
+  }
+  .contactWrapper .contactTitle p {
+    font-size: 26px;
+  }
+  .contactWrapper .contact-form {
+    width: 100vw;
+  }
+  .contactWrapper .contact-form .input label {
+    font-size: 18px;
+  }
+  .contactWrapper .contact-form .input input {
+    height: 5vh;
+    width: 60vw;
+  }
+  .contactWrapper .contact-form .socialmedia {
+    margin-top: 5vh;
+  }
+  .contactWrapper .contact-form .socialmedia p {
+    font-size: 20px;
+    width: 70vw;
+  }
+  .contactWrapper .contact-form .button {
+    width: 100vw;
+    margin: 0;
+  }
+  .contactWrapper .contact-form .button input {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: 0s;
+    transition: 0s;
+    width: 120px;
+  }
+  .contactWrapper .contact-form .button input:hover {
+    letter-spacing: 0;
+    font-size: 20px;
+  }
+  .contactWrapper .map {
+    width: 100vw;
+  }
+  .contactWrapper .map p {
+    font-size: 24px;
+  }
+  .contactWrapper .map iframe {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+  .contactWrapper {
+    height: auto;
+    padding-bottom: 5vh;
+  }
+  .contactWrapper .contactTitle {
+    width: 100vw;
+    margin-top: 5vh;
+  }
+  .contactWrapper .contactTitle p {
+    font-size: 35px;
+  }
+  .contactWrapper .contact-form {
+    width: 50vw;
+  }
+  .contactWrapper .contact-form .input label {
+    font-size: 18px;
+  }
+  .contactWrapper .contact-form .input input {
+    height: 5vh;
+    width: 40vw;
+  }
+  .contactWrapper .contact-form .socialmedia {
+    margin-top: 5vh;
+    margin-left: 10vw;
+  }
+  .contactWrapper .contact-form .socialmedia p {
+    font-size: 20px;
+    width: 70vw;
+  }
+  .contactWrapper .contact-form .button {
+    width: 100%;
+    margin: 0;
+  }
+  .contactWrapper .contact-form .button input {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: 0s;
+    transition: 0s;
+    width: 140px;
+  }
+  .contactWrapper .contact-form .button input:hover {
+    letter-spacing: 0;
+    font-size: 20px;
+  }
+  .contactWrapper .map {
+    text-align: center;
+    width: 50vw;
+  }
+  .contactWrapper .map p {
+    font-size: 24px;
+  }
+  .contactWrapper .map iframe {
+    width: 40vw;
+    height: 40vw;
+  }
+}
+
+@media (min-width: 375px) and (orientation: portrait) {
+  .contactWrapper .contactTitle {
+    padding-bottom: 2vh;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+  .contactWrapper .contactTitle p {
+    font-size: 50px;
+  }
+  .contactWrapper .contact-form .input label {
+    font-size: 25px;
+  }
+  .contactWrapper .contact-form .input input {
+    font-size: 25px;
+    height: 4vh;
+    width: 36vw;
+  }
+  .contactWrapper .contact-form .socialmedia {
+    margin-top: 5vh;
+    margin-left: 10vw;
+  }
+  .contactWrapper .contact-form .socialmedia i {
+    font-size: 35px;
+  }
+  .contactWrapper .contact-form .socialmedia p {
+    font-size: 30px;
+    width: 70vw;
+  }
+}
+/*# sourceMappingURL=contactForm.css.map */

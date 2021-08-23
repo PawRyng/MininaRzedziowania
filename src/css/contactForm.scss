@@ -1,0 +1,275 @@
+@import 'Font';
+@import 'variabels';
+.contactWrapper{
+    .contactTitle{
+        margin-top: 10vh;
+        text-align: center;
+        background-color: #242424;
+        color: white;
+        font-size: 50px;
+        font-family: "Roboto", "sans-serif";
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding-bottom: 4vh;
+        width: 100vw;
+        p{
+            margin: 0;
+            cursor: default;
+        }
+    }
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    background-color: #242424;
+    cursor: default;
+    form{        
+        .socialmedia{
+            margin-top: 10vh;
+            p{
+                margin-left: auto;
+                margin-right: auto;
+                // margin-top: 20px;
+                margin-bottom: 2vh;
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                width: 17vw;
+                text-align: left;
+                font-size: 25px;
+                i{
+                    font-size: 30px;
+                }
+            }
+            i{
+                margin-right: 1vw;
+            }
+        }
+        p{
+            color: white;
+            font-family: "Roboto", "sans-serif";
+            font-size: 35px;
+            text-align: center;
+            margin: 2vh 0 6vh 0;
+            font-weight: 500;
+        }
+        .input{
+            text-align: center;
+            margin: 2vh 0;
+            label{
+                color:white;
+                font-family: "Roboto", "sans-serif";
+                font-size: 30px;
+                text-transform: uppercase;
+            }
+            input{
+                font-family: "Roboto", "sans-serif";
+                width: 20vw;
+                height: 5vh;
+                font-size: 20px;
+                font-weight: 400;
+                margin-left: 1vw;
+            }
+        }
+        .button{
+            width: 100%;
+            text-align: center;
+            margin-top: 3vh;
+            input{
+                transform: translateX(50%);
+                width: 12vw;
+                height: 5vh;
+                background-color: white;
+                font-family: "Roboto", "sans-serif";
+                color: black;
+                border-color: white;
+                box-shadow: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 20px;
+                transition: .5s;
+                border-radius: 26px;
+                letter-spacing: 1px;
+                &:hover{
+                    letter-spacing: 5px;
+                }
+            }
+        }
+    }
+    .map{
+     width: 50vw;
+     text-align: center;
+     p{
+         color: white;
+         font-size: 35px;
+         margin: 2vh;
+         text-transform: uppercase;
+         font-family: "Roboto", "sans-serif";
+         font-weight: 500;
+     }
+     iframe{
+         width:40vw;
+            height:50vh;
+         border:0;
+        }
+    }
+    .contact-form{
+        width: 50vw;
+    }
+}
+#root{
+    width: 100vw;
+    overflow: hidden;
+}
+
+@media (min-width:$Lumia) and (orientation:portrait) {
+    .contactWrapper{
+        height: auto;
+        padding-bottom: 5vh;
+        .contactTitle{
+            width: 100vw;
+            margin-top: 5vh;
+            p{
+                font-size: 26px;
+            }
+        }
+        .contact-form{
+            width: 100vw;
+            .input{
+                label{
+                    font-size: 18px;
+                }
+                input{
+                    height: 5vh;
+                    width: 60vw;
+                }
+            }
+            .socialmedia{
+                margin-top: 5vh;
+                p{
+                    font-size: 20px;
+                    width: 70vw;
+                }
+            }
+            .button{
+                width: 100vw;
+                margin: 0;
+                input{
+                    transform: translateX(0px);
+                    transition: 0s;
+                    width: 120px;
+                    &:hover{
+                        letter-spacing: 0;
+                        font-size: 20px;
+                        
+                    }
+                }
+            }
+        }
+        .map{
+            width: 100vw;
+            p{
+                font-size: 24px;
+            }
+            iframe{
+                width: 90vw;
+            }
+        }
+    }
+}
+@media (min-width:$iPad) and (orientation:portrait) {
+    .contactWrapper{
+        height: auto;
+        padding-bottom: 5vh;
+        .contactTitle{
+            width: 100vw;
+            margin-top: 5vh;
+            p{
+                font-size: 35px;
+            }
+        }
+        .contact-form{
+            width: 50vw;
+            .input{
+                label{
+                    font-size: 18px;
+                }
+                input{
+                    height: 5vh;
+                    width: 40vw;
+                }
+            }
+            .socialmedia{
+                margin-top: 5vh;
+                margin-left: 10vw;
+                p{
+                    font-size: 20px;
+                    width: 70vw;
+                }
+            }
+            .button{
+                width: 100%;
+                margin: 0;
+                input{
+                    transform: translateX(0px);
+                    transition: 0s;
+                    width: 140px;
+                    &:hover{
+                        letter-spacing: 0;
+                        font-size: 20px;
+                        
+                    }
+                }
+            }
+        }
+        .map{
+            text-align: center;
+            width: 50vw;
+            p{
+                font-size: 24px;
+            }
+            iframe{
+                width: 40vw;
+                height: 40vw;
+            }
+        }
+    }
+}
+@media (min-width:$iPhoneX) and (orientation:portrait){
+    .contactWrapper{
+        .contactTitle{
+            padding-bottom: 2vh;
+        }
+    }
+}
+@media (min-width:$iPadPro) and (orientation:portrait){
+    .contactWrapper{
+        .contactTitle{
+            p{
+                font-size: 50px;
+            }
+        }
+        .contact-form{
+            .input{
+                label{
+                    font-size: 25px;
+                }
+                input{
+                    font-size: 25px;
+                    height: 4vh;
+                    width: 36vw;
+                }
+            }
+            .socialmedia{
+                margin-top: 5vh;
+                margin-left: 10vw;
+                i{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 30px;
+                    width: 70vw;
+                }
+            }
+    }
+}
+}
