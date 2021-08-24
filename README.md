@@ -1,2 +1,3 @@
 # MiniNarzedziowania
-<iframe src='//gifs.com/embed/website1-pZkXmV' frameborder='0' scrolling='no' width='1280px' height='720px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+
+<img src="https://j.gifs.com/pZkXmV.gif" width="40" height="40" />
